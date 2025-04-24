@@ -14,6 +14,7 @@ function firstNonRepeatedChar(str) {
             return null;
         }
     }
+	return null;
 
    }
    const input = prompt("Enter a string");
