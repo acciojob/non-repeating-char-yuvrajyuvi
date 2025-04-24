@@ -1,6 +1,8 @@
 function firstNonRepeatedChar(str) {
     const charcount={}
-
+	if(str.length===0){
+        return null;
+    }
     for(let char of str ){
         charcount[char]=(charcount[char]||0)+1;
     }
